@@ -5,7 +5,7 @@
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
 // the "speak" method and which you will expose to the global context
 
-  var helloSpeaker ={}
+  var helloSpeaker = {};
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
   var speakWord = "Hello";
@@ -18,6 +18,6 @@
 // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
 // 'helloSpeaker' on the global scope as well.
 
-  window.helloSpeaker=helloSpeaker
+  window.helloSpeaker=helloSpeaker;
  
 })(window);

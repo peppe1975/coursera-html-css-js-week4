@@ -4,7 +4,7 @@
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
 // the "speak" method and which you will expose to the global context
-  var byeSpeaker ={};
+  var byeSpeaker = {};
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 
@@ -20,7 +20,7 @@
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
 // 'byeSpeaker' on the global scope as well.
 
-  window.byeSpeaker=byeSpeaker
+  window.byeSpeaker=byeSpeaker;
 })(window);
 
 
